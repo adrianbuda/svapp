@@ -61,7 +61,8 @@
         android:layout_below="@+id/password"
         android:layout_marginTop="44dp"
         android:background="@drawable/button"
-        android:text="Login" />
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse" />
 
     <TextView
         android:id="@+id/signUp"
@@ -72,7 +73,8 @@
         android:layout_marginEnd="61dp"
         android:layout_marginTop="32dp"
         android:text="or Sign Up"
-        android:textStyle="bold" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+        android:textColorHint="@color/colorPrimaryDark" />
 
 
 </RelativeLayout>
