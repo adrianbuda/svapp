@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.adrian.login_and_register.Register">
+    tools:context="com.example.adrian.login_and_register.RegisterActivity">
 
     <com.jgabrielfreitas.core.BlurImageView
         android:id="@+id/myBackground"

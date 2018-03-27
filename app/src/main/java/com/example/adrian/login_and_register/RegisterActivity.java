@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.jgabrielfreitas.core.BlurImageView;
 
-public class Register extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     TextView existingAccount;
     BlurImageView mybackground;
@@ -27,7 +27,7 @@ public class Register extends AppCompatActivity {
         existingAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Register.this, Login.class);
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
